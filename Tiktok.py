@@ -1,14 +1,14 @@
-from turtle import *
+from turtle import *  # import turtle library
 
 width(20)
 
-bgcolor('black')
+bgcolor('black')  # add background color
 
-colors = ['#db0f3c', '#50ebe7', 'white']
+colors = ['#db0f3c', '#50ebe7', 'white']  # That list contain all colors
 
 positions = [(0, 0), (-5, 13), (-5, 5)]  # Start Positions
 
-for (x, y), col in zip(positions, colors):
+for (x, y), col in zip(positions, colors):  # using zip() to combine color with position
     up()
 
     goto(x, y)
