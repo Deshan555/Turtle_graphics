@@ -1,8 +1,8 @@
-from turtle import *
+from turtle import *  # import library
 
-bgcolor('black')
+bgcolor('black')  # Background color set as Black
 
-color('red', 'yellow')
+color('red', 'yellow')  # Color Fills
 
 begin_fill()
 
@@ -13,7 +13,6 @@ while True:
     left(170)
 
     if abs(pos()) < 1:
-
         break
 
 end_fill()
